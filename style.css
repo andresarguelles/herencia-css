@@ -1,6 +1,8 @@
 /* Estilos globales */
 body {
-    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Playwrite GB J Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
     color: #333; /* Se hereda por defecto */
     line-height: 1.6;
 }
@@ -25,6 +27,10 @@ section {
     background-color: #fafafa;
 }
 
+.herencia {
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 section h2 {
     font-size: 1.8rem;
     color: #444; /* No se hereda */
@@ -38,6 +44,10 @@ section p {
 .subrayado {
     background-color: yellow;
     font-weight: bold; /* No se hereda */
+}
+
+#especial{
+    color: #f00;
 }
 
 /* Forzar herencia */
